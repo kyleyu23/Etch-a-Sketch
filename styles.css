@@ -11,8 +11,12 @@
 }
 
 .cell {
-    width: 6.25%;
-    height: 6.25%;
+    /* width: 6.25%;
+    height: 6.25%; */
     display: inline-block;
     line-height: normal;
+}
+
+.hover {
+    background-color: rgb(26, 26, 26);
 }
