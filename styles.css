@@ -1,5 +1,5 @@
 * {
-    outline: green 1px solid;
+    /* outline: black 1px solid; */
     margin: 0;
     padding: 0;
 }
@@ -15,8 +15,31 @@
     height: 6.25%; */
     display: inline-block;
     line-height: normal;
+    outline: black 1px solid;
 }
 
 .hover {
     background-color: rgb(26, 26, 26);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10vw;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#clear-background-color {
+    margin: 2vw;
+}
+
+#slider-container {
+    margin-bottom: 0.5vw;
 }
