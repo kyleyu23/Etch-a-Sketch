@@ -16,7 +16,7 @@
     height: 6.25%; */
     display: inline-block;
     line-height: normal;
-    outline: black 1px solid;
+    outline: grey 1px solid;
 }
 
 .hover {
@@ -28,6 +28,8 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: 10vw;
+    background-color: black;
+    color: white;
 }
 
 .controls-container {
