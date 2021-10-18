@@ -1,0 +1,18 @@
+* {
+    outline: green 1px solid;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    width: 50vw;
+    height: 50vw;
+    line-height: 0;
+}
+
+.cell {
+    width: 6.25%;
+    height: 6.25%;
+    display: inline-block;
+    line-height: normal;
+}
